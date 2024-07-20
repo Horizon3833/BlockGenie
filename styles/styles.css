@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  #prompt {
+    width: 100%;
+    height: 60px;
+  }
+  
+  #generate, #inject {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  #output {
+    margin-top: 10px;
+  }
+  
+  #blockXml {
+    width: 100%;
+    height: 200px;
+    display: none;
+  }
+  

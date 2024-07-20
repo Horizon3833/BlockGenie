@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BlockGenie</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <div>
+    <label for="apiKey">Gemini API Key:</label>
+    <input type="text" id="apiKey">
+  </div>
+  <div>
+    <label for="prompt">Prompt:</label>
+    <textarea id="prompt" rows="5"></textarea>
+  </div>
+  <div>
+    <button id="generate">Generate Blocks</button>
+    <button id="inject" style="display: none;">Inject Blocks</button>
+  </div>
+  <div id="loading" style="display: none;">Loading...</div>
+  <div>
+    <textarea id="blockXml" rows="10" style="display: none;"></textarea>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
